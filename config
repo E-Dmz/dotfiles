@@ -1,4 +1,19 @@
-Host *
-  UseKeychain yes
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/id_ed25519
+Host www.edmz.fr
+  HostName www.edmz.fr
+  User edmz
+  Port 2449
+
+Host www.edmz.fr
+  HostName www.edmz.fr
+  User edmz
+  Port 1224
+
+Host 192.168.1.26
+  HostName 192.168.1.26
+  User edmz
+  Port 1224
+
+Host 192.168.1.52
+  HostName 192.168.1.52
+  User edmz
+  Port 2449

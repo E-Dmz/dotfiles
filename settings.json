@@ -62,7 +62,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "[python]":
@@ -75,5 +74,10 @@
     {
         "rubocop": true
     },
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Default High Contrast",
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.inheritEnv": false,
+    "python.defaultInterpreterPath": "/Users/edmz/miniforge3/envs/icm/bin/python"
 }
